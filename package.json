@@ -7,10 +7,16 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "trigger:dev": "npx @trigger.dev/cli@latest dev"
   },
   "dependencies": {
-    "astro": "^2.10.9"
+    "@trigger.dev/sdk": "^2.0.8",
+    "astro": "^2.10.9",
+    "triggerdev-astro-integration": "github:lirantal/triggerdev-astro-integration"
+  },
+  "trigger.dev": {
+    "endpointId": "trigger-astro-example"
   },
   "license": "MIT"
 }
