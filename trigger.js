@@ -9,6 +9,7 @@ export const client = new TriggerClient({
 client.defineJob({
   id: "simple-astro-job",
   name: "Simple Astro Job",
+  version: "1.0.0",
   trigger: eventTrigger({
     name: "astro.event",
   }),
