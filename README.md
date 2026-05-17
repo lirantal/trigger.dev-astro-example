@@ -43,6 +43,10 @@ Feel free to check [Trigger.dev documentation](https://trigger.dev/docs/document
 
 MIT
 
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
+
 ## Author
 
 (c) Liran Tal <liran@lirantal.com>
