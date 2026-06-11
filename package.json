@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "trigger-dev-astro-example",
   "type": "module",
   "version": "0.0.1",
@@ -22,5 +18,9 @@
   "trigger.dev": {
     "endpointId": "trigger-astro-example"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  }
 }
